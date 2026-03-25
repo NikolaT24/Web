@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Начална страница</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="img/wallpaper3.jpg" alt="фон" class="top-image">
+    <header class="grid-container">
+        <img src="img/logo.jpeg" alt="лого" width="150">
+        <h1>Система за поздравителни картички</h1>
+        <nav>
+            <a href="homepage.html">Начало</a>
+            <a href="create-card.html">Създай картичка</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="box">
+                <h2>Създай персонализирана картичка за всеки повод</h2>
+                <p>Бързо, лесно и с любов. Избери дизайн, добави послание и изпрати с едно кликване.</p>
+            </div>
+            
+            <div class="box">
+                <h2>Защо поздравителните картички са готини?</h2>
+                <p>Поздравителните картички са забавен и мил начин да покажеш на някого, че те 
+                грижа за неговия рожден ден, имен ден, празник или друг повод.</p>
+            </div>
+            
+        </section>
+        <section class="features">
+            <h2>Какво предлагаме</h2>
+            <div class="features-grid">
+            <a href="create-card.html" class="big-btn bg1">
+                <div class="bg-blur"></div>
+                <span class="btn-text">🎨 Десетки възможности</span>
+            </a>
+
+            <a href="create-card.html" class="big-btn bg2">
+                <div class="bg-blur"></div>
+                <span class="btn-text">📩 Изпращане по имейл</span>
+            </a>
+
+            <a href="create-card.html" class="big-btn bg3">
+                <div class="bg-blur"></div>
+                <span class="btn-text">📃 Създай картичка от нулата</span>
+            </a>
+
+            <a href="#" class="big-btn bg4">
+                <div class="bg-blur"></div>
+                <span class="btn-text">To be implemented</span>
+            </a>
+            </div>
+        </section>
+        <section>
+            <h2>Примерни картички</h2>
+            <div class="slideshow-container">
+                <img class="slide" src="img/card1.png" alt="Картичка 1" >
+                <img class="slide" src="img/card2.png" alt="Картичка 2" >
+                <img class="slide" src="img/card3.png" alt="Картичка 3" >
+                <img class="slide" src="img/card4.png" alt="Картичка 4" >
+                <img class="slide" src="img/card5.png" alt="Картичка 5" >
+
+                <button class="prev" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="next" onclick="plusDivs(+1)">&#10095;</button>
+            </div>
+            
+            <!--снимки с картички-->
+            <button class="small-btn">Направи твоята картичка сега!</button>
+        </section>
+        <section>
+            
+        </section>
+        <!-- <section>
+            <h2>Имаш собствена идея за пожелание и картичка?</h2>
+            <button>Създай картичка от нулата</button>
+        </section> -->
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Система за поздравителни картички</p>
+        <nav>
+            <a href="help.html">Помощ</a>
+            <a href="contact.html">Контакти</a>
+            <a href="about.html">За нас</a>
+            <a href="privacy-policy.html">Политика за поверителност</a>
+        </nav>
+    </footer>   
+</body>
+</html>
+
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+    showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("slide");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+    }
+
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slide");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+</script>
