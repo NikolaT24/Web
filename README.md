@@ -1,9 +1,27 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=200&section=header&text=Greeting%20-%20Card%20Email%20Sender&fontSize=30&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff512f,50:dd2476,100:6a11cb&height=220&section=header&text=Greeting%20Card%20Email%20Sender&fontSize=42&fontAlignY=35&fontColor=ffffff&animation=fadeIn&desc=Design%20%E2%80%A2%20Export%20%E2%80%A2%20Send&descAlignY=55&descSize=18" />
 </p>
+
 <div align="center">
 
-A simple web app (front‑end only) that lets you **design custom greeting cards right in the browser and send them as PNG attachments via e‑mail**—either one at a time or in bulk from a CSV file.
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&color=FF6EC7&center=true&vCenter=true&width=600&lines=Design+Beautiful+Greeting+Cards;Send+Them+via+Email+in+Seconds;Single+or+Bulk+Sending+with+CSV" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Frontend-Web%20App-6a11cb?style=for-the-badge">
+<img src="https://img.shields.io/badge/Export-PNG-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/Emails-Automated-ff69b4?style=for-the-badge">
+
+<br><br>
+
+<h3>💌 Create, personalize, and send greeting cards effortlessly</h3>
+
+<p>
+A simple <b>front-end web app</b> that lets you design custom greeting cards directly in your browser  
+and send them as <b>PNG email attachments</b> — whether individually or in bulk using CSV.
+</p>
+
+</div>
 
 ---
 
