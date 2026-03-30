@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=200&section=header&text=Emergent%20Recursive%20Evolution&fontSize=30&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=200&section=header&text=Greeting%20Card%20Email%20Sender&fontSize=30&fontColor=ffffff&animation=fadeIn" />
 </p>
 <div align="center">
    
